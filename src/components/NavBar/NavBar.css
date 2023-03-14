@@ -1,0 +1,29 @@
+.Navbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100vw;
+
+}
+
+
+
+.linkp{
+    padding: 20px;
+    
+}
+
+.linkp:hover{
+    scale: 1.05;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px; 
+}

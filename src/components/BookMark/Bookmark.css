@@ -1,0 +1,9 @@
+.BookMarkOuterDiv{
+    overflow: scroll;
+    margin-top: 112px;
+   
+}
+
+.BookMarkOuterDiv::-webkit-scrollbar {
+    display: none;
+  }

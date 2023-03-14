@@ -1,0 +1,36 @@
+.OuterDiv{
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+}
+.InnerDiv{
+    background-color: rgb(17, 36, 66);
+    width: 60%;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.Select{
+    width: 25%;
+    margin-top: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.Buttion{
+    background-color: green;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 20px;
+    width: 25%;
+    /* border: none; */
+}
+
+.Buttion:hover{
+    scale: 1.05;
+}

@@ -1,0 +1,33 @@
+.QuatecardInnerDiv{
+    background-color: brown;
+    width: 60vw;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.PBt{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+
+
+
+.Bt{
+    background-color: transparent;
+    direction: none;
+    border: none;
+    margin: 50px;
+    color: white;
+
+}
+
+.Bt:hover{
+    scale: 1.3;
+    cursor: pointer;
+}

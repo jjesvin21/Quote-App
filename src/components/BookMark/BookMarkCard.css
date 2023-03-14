@@ -1,0 +1,19 @@
+.InnerDivQuate{
+    background-color: brown;
+    width: 60vw;
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px;
+
+}
+
+
+
+.InnerDivQuate:hover{
+    scale: 1.03;
+    cursor: pointer;
+}
