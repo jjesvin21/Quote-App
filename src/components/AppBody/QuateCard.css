@@ -1,5 +1,5 @@
 .QuatecardInnerDiv{
-    background-color: brown;
+    background-color: #D05252;
     width: 60vw;
     height: 250px;
     border-radius: 20px;
@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+    margin: 20px;
 
 }
 

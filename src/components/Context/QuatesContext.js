@@ -8,12 +8,16 @@ export const  QuatesContextProvider = ({children})=> {
     const SetList =(value)=>{
         SetBookMarkList([...BookMarkList,value])
     }
+    const [bookmarked,setbookmarked] = useState(false);
   return (
     <QuatesContext.Provider 
     value={
         {
             bookmarklist : BookMarkList,
-            SetList : SetList
+            SetList : SetList,
+            bk:bookmarked,
+            setbk:setbookmarked
+
         }
     }>
         {children}

@@ -1,10 +1,12 @@
 .OuterDiv{
+    background:linear-gradient(256.47deg, #5E2AB3 2.64%, #161E6C 140.46%);
+
     display: flex;
     justify-content: center;
      align-items: center; 
 }
 .InnerDiv{
-    background-color: rgb(17, 36, 66);
+    /* background:linear-gradient(256.47deg, #5E2AB3 2.64%, #161E6C 140.46%); */
     width: 60%;
     height: 250px;
     border-radius: 20px;
@@ -33,4 +35,10 @@
 
 .Buttion:hover{
     scale: 1.05;
+}
+
+h3{
+    padding: 15px;
+    padding-top: 20px;
+    margin-top: 10px;
 }

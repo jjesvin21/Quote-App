@@ -1,9 +1,11 @@
-import React, { useRef, useState } from 'react'
+import React, { useContext, useState } from 'react'
 import "./AppBody.css"
 import QuateCard from './QuateCard'
 import axios from 'axios';
+import { QuatesContext } from '../Context/QuatesContext';
 
 export default function AppBody() {
+  const ctx = useContext(QuatesContext);
   const [quatedata,setquatedata] = useState({name: 'If only wed stop trying to be happy wed have a pretty good time.', aname: 'Edith Wharton'});
   var text = "";
 
@@ -13,6 +15,9 @@ export default function AppBody() {
     console.log(text);
   }
   const Quatefech =()=>{
+
+    ctx.setbk(false);
+
     axios({
       url :'https://api.quotable.io/random?tags='+text,
       method: 'GET'
